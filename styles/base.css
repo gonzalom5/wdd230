@@ -18,6 +18,10 @@ header {
 	padding: 20px;
 }
 
+header span {
+  font-size: 2rem;
+}
+
 h1 {
 	font-size: 2rem;
 }
@@ -65,12 +69,6 @@ main section {
   overflow: hidden;
 }
 
-main h3 {
-  background-color: #6bb2df;
-  text-align: center;
-  padding: .5rem;
-}
-
 main p {
   margin: 1rem;
 }
@@ -89,7 +87,7 @@ footer {
   background-color: #0b4972;
 }
 
-footer p{
+footer p {
   color: #eeeeee;
-  font-weight: 400;
+  font-weight: 300;
 }
