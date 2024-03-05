@@ -1,0 +1,22 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #424530;
+}
+
+header {
+    border-bottom: 1px solid #E09132;
+}
+
+h1 {
+    color:#E09132;
+}
+
+h2{
+    color: #003366;
+}
+
+footer {
+    text-align: center;
+    color:#E09132;
+}
