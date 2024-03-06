@@ -6,46 +6,73 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 
-/* mobile --------------------*/
+/* header --------------------*/
 header {
 	background-color: #6bb2df;
 	display: flex;
 	align-items: center;
   justify-content:center;
 	padding: 20px;
+  position: relative;
 }
 
 header span {
-  padding: .5rem;
-  text-align: center;
   font-size: 2rem;
+  padding-left: 5px; 
 }
 
-h1 {
-	font-size: 1.5rem;
+/*hamburger button-------------*/
+button#Hamburger {
+  background: none;
+  border: none;
+  display: block;
+  padding-bottom: .6rem;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+  width: 50px;
+  cursor:pointer;
 }
 
+button#Hamburger::before {
+  content: "☰";
+}
+
+button#Hamburger.show::before {
+  content: '⨯';
+}
+
+/* mobile --------------------*/
 h2 {
   font-size: 1.2rem;
+  padding-left: 5px;
+}
+
+nav ul {
+  display: none;
+	list-style-type: none;
+}
+
+nav ul.show {
+  display: block;
 }
 
 nav {
 	background-color: #0b4972;
+  border: 1px solid rgba(0,0,0,0.5);
+  padding: 0;
+  margin: 0;
 }
 
-nav ul {
-	list-style-type: none;
-}
-
-nav a {
-	display: block;
-	color: #f7f9ee;
-	text-align: center;
-	padding: .5rem;
-	text-decoration: none;
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: .5rem;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -56,9 +83,41 @@ nav a:hover {
   background-color: rgba(0,0,0,0.2);
 }
 
-/*main----------------*/
+/*dark mode button-----------------*/
+#darkMode {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  width: 50px;
+  height: 48px;
+  padding: 8px;
+}
+
+/*main-------------------------*/
 main {
     padding: 1rem;
+}
+
+main.dark {
+  background-color: #232222;
+  color: #e6cc00;
+}
+
+main.dark h1 {
+  color:#e6cc00;
+}
+
+main.dark h2 {
+  color:#0f0f0f;
+}
+
+main.dark a {
+  color: #e6cc00;
+}
+
+main.dark a:hover{
+  color:#eee;
 }
 
 main h2 {
@@ -73,6 +132,7 @@ main section {
   border: 1px solid #eee;
   border-radius: 6px;
   overflow: hidden;
+  margin-bottom: .5rem;
 }
 
 main p {
@@ -84,7 +144,7 @@ main ul {
   margin: 1rem;
 }
 
-/*footer------*/
+/*footer-------------------------*/
 footer {
   padding: 1rem;
   text-align: center;
