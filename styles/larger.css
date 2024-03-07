@@ -17,4 +17,8 @@
     main h1 {
         grid-column: 1 / span 2;
     }
+
+    #Hamburger {
+        display: none;
+    }
 }

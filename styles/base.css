@@ -25,24 +25,27 @@ header span {
 }
 
 /*hamburger button-------------*/
-button#Hamburger {
-  background: none;
-  border: none;
-  display: block;
-  padding-bottom: .6rem;
-  font-size: 2rem;
-  color: #fff;
-  text-align: center;
-  width: 50px;
-  cursor:pointer;
+#Hamburger {
+  font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 6rem;
+	right: 1rem;
+  cursor: pointer;
 }
 
-button#Hamburger::before {
+#Hamburger::before {
   content: "☰";
 }
 
-button#Hamburger.show::before {
-  content: '⨯';
+#Hamburger.open::before {
+  content: '✖';
+}
+
+.open a {
+  display: block;
 }
 
 /* mobile --------------------*/
@@ -56,7 +59,7 @@ nav ul {
 	list-style-type: none;
 }
 
-nav ul.show {
+nav ul.open {
   display: block;
 }
 
@@ -120,12 +123,20 @@ main.dark a:hover{
   color:#eee;
 }
 
-main h2 {
-  padding: .5rem;
+main h1 {
+  padding: 5px;
   margin-bottom: 1rem;
-  border-bottom: solid 1px rgba(0,0,0,0.5);
-  background-color: #6bb2df;
+  border-radius: 8px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,0.107) 0%, rgba(107,178,223,0.25) 0%);
   text-align: center;
+}
+
+main h2 {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,0.107) 0%, rgba(107,178,223,0.25) 0%);
+  text-align: center;
+  padding: .5rem;
 }
 
 main section {
