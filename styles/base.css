@@ -104,20 +104,24 @@ main.dark {
 
 main.dark h1 {
   color:#e6cc00;
-  background-color: #800080;
+  background-color: #9153b0;
 }
 
 main.dark h2 {
   color:#e6cc00;
-  background-color: #800080;
+  background-color: #9153b0;
 }
 
 main.dark a {
   color: #e6cc00;
 }
 
+main.dark section {
+  border: 1.5px solid #b85ede;
+}
+
 main.dark a:hover{
-  color:#AC94F4;
+  color:#b85ede;
 }
 
 main h1 {
