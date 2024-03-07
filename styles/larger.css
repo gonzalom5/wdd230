@@ -1,4 +1,8 @@
 @media only screen and (min-width: 38rem) {
+    /*Hide hamburger button on larger screen*/ 
+    #Hamburger {
+        display: none;
+    }
     nav ul {
             display: flex;
             }
@@ -16,9 +20,5 @@
     }   
     main h1 {
         grid-column: 1 / span 2;
-    }
-
-    #Hamburger {
-        display: none;
     }
 }
