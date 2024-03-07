@@ -44,10 +44,6 @@ button#Hamburger.open::before {
   content: '✖';
 }
 
-.open a {
-  display: block;
-}
-
 /* mobile --------------------*/
 h2 {
   font-size: 1.2rem;
@@ -83,7 +79,7 @@ nav a:hover {
 }
 
 .active {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.4);
 }
 
 /*dark mode button-----------------*/
@@ -108,10 +104,12 @@ main.dark {
 
 main.dark h1 {
   color:#e6cc00;
+  background-color: #800080;
 }
 
 main.dark h2 {
-  color:#0f0f0f;
+  color:#e6cc00;
+  background-color: #800080;
 }
 
 main.dark a {
@@ -119,21 +117,19 @@ main.dark a {
 }
 
 main.dark a:hover{
-  color:#eee;
+  color:#AC94F4;
 }
 
 main h1 {
   padding: 5px;
   margin-bottom: 1rem;
-  border-radius: 8px;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,0.107) 0%, rgba(107,178,223,0.25) 0%);
+  border-radius: 6px;
+  background: #6bb2df;
   text-align: center;
 }
 
 main h2 {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,0.107) 0%, rgba(107,178,223,0.25) 0%);
+  background: #6bb2df;
   text-align: center;
   padding: .5rem;
 }
