@@ -25,7 +25,7 @@ header span {
 }
 
 /*hamburger button-------------*/
-#Hamburger {
+button#Hamburger {
   background: none;
   border: none;
   display: block;
@@ -36,11 +36,11 @@ header span {
   cursor: pointer;
 }
 
-#Hamburger::before {
+button#Hamburger::before {
   content: "☰";
 }
 
-#Hamburger.open::before {
+button#Hamburger.open::before {
   content: '✖';
 }
 

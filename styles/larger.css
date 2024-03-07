@@ -1,6 +1,6 @@
 @media only screen and (min-width: 38rem) {
     /*Hide hamburger button on larger screen*/ 
-    #Hamburger {
+    button#Hamburger {
         display: none;
     }
     nav ul {
