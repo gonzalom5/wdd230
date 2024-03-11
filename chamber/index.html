@@ -25,14 +25,27 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="Site Logo" width="300">
-        <h1>Santiago Chamber of Commerce</h1>
-    </header>
+        <img src="images/logo.png" alt="Site Logo">
+        <div>
+            <h1>Santiago</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <nav>
+            <button id="Hamburger">☰</button>
+            <ul>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>  
     <main>
         <div class="hero">
             <img src="images/hero.jpg" alt="hero">
             <a href="#">Join Now!</a>
         </div>
+        <div class="cards">
         <section class="events">
             <h2>Events</h2>
             <p>Events information goes here</p>
@@ -51,8 +64,11 @@
             <p></p>
             <a href="#">spotlight website</a>
         </section>
+        </div>
     </main>
     <footer>
+        <section>
+            <img src="images/logo.png" alt="site logo">
         <div>
             <p>Santiago Chamber of Commerce</p>
             <p>Avenida Apoquindo 1234, Las Condes</p>
@@ -62,12 +78,13 @@
         <section>
             <p>info@santiagochamber.org</p>
             <p><a href="tel:56212345678">+56(2)1234-5678</a></p>
-            <p>Our Location in <a href="#">Google Maps</a></p>
+            <p>Location Map <a href="#">Click Here</a></p>
         </section>
         <section>
-            <p>&copy; <span id="year">year</span> Gonzalo Martinez, Chile</p>
+            <p>&copy; <span id="year">year</span> Santiago Chamber</p>
+            <p>Gonzalo Martinez</p>
             <p>WDD 230 Class Project</p>
-            <p id="lastModified"></p>
+            <p id="lastModified">placeholder</p>
         </section>
     </footer>
     <script src="scripts/chamber.js"></script>
