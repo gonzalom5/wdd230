@@ -18,9 +18,14 @@ header {
 
 header h1 {
   margin: 0;
-  color:#E09132;
+  color:#fbb040;
   font-size: 1.4rem;
   padding-top: .5rem;
+}
+
+.outline-text{
+  outline-color: black;
+  outline-width: 5px;
 }
 
 header img {
@@ -91,8 +96,8 @@ div.hero a {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: .5rem 1rem;
-  background-color: #f5a434;
-  color: black;
+  background-color: #e8630a;
+  color: #eee;
   text-decoration: none;
   font-weight: 600;
   border-radius: 10px;
