@@ -13,12 +13,9 @@
         max-width: 900px;
         margin: 0 auto;
     }
-    main {
+    .grid {
         display: grid;
         grid-template-columns: 2fr 1fr;
         column-gap: 16px;
-    }   
-    main h1 {
-        grid-column: 1 / span 2;
-    }
+      }
 }

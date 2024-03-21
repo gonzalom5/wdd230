@@ -87,14 +87,14 @@ nav a:hover {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  width: 44px;
+  width: 50px;
   padding: 8px;
   cursor: pointer;
 }
 
 /*main-------------------------*/
 main {
-    padding: 1rem;
+    padding: 10px;
 }
 
 main.dark {
@@ -152,6 +152,29 @@ main p {
 main ul {
   list-style-position: inside;
   margin: 1rem;
+}
+
+/*Hero Image----------------------*/
+.hero {
+  width: 100%;
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+
+.hero div {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  padding: 1rem;
+  font-weight: 400;
+  color: #eee;
+  background-color: rgba(15, 49, 87, 0.6);
+  border-radius: 6px;
 }
 
 /*footer-------------------------*/
