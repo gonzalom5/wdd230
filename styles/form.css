@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+/* header --------------------*/
+header {
+	background-color: #6bb2df;
+	display: flex;
+	align-items: center;
+  justify-content:center;
+	padding: 20px;
+  position: relative;
+}
+
+header span {
+  font-size: 2rem;
+  padding-left: 5px;
+}
+
+/*hamburger button-------------*/
+button#Hamburger {
+    background: none;
+    border: none;
+    display: block;
+    padding-bottom: .5rem;
+    font-size: 1.7rem;
+      color: #eee;
+    width: 50px;
+    cursor: pointer;
+}
+  
+button#Hamburger::before {
+    content: "☰";
+}
+  
+button#Hamburger.open::before {
+    content: '✖';
+}
+
+h2 {
+    font-size: 1.2rem;
+    padding-left: 5px;
+  }
+  
+  nav ul {
+    display: none;
+      list-style-type: none;
+  }
+  
+  nav ul.open {
+    display: block;
+  }
+  
+  nav {
+      background-color: #0b4972;
+    border: 1px solid rgba(0,0,0,0.5);
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+      background-color: rgba(0,0,0,0.3)
+  }
+  
+  .active {
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  /*dark mode button-----------------*/
+  #darkMode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 50px;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  /*main-------------------------*/
+main {
+    padding: 10px;
+    text-align: center;
+}
+  
+main.dark {
+  background-color: #232222;
+  color: #e6cc00;
+}
+ 
+main.dark h1 {
+  color:#e6cc00;
+  background-color: #9153b0;
+}
+ 
+main.dark h2 {
+  color:#e6cc00;
+  background-color: #9153b0;
+}
+  
+main.dark a {
+  color: #e6cc00;
+}
+  
+main.dark section {
+  border: 1.5px solid #b85ede;
+}
+  
+main.dark a:hover{
+  color:#b85ede;
+}
+
+main h2 {
+  background: #6bb2df;
+  text-align: center;
+  padding: .5rem;
+}
+  
+main ul {
+  list-style-position: inside;
+  margin: 1rem;
+}
+
+/*footer-------------------------*/
+footer {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    background-color: #0b4972;
+  }
+  
+  footer p {
+    color: #eeeeee;
+    font-weight: 300;
+  }
+  
