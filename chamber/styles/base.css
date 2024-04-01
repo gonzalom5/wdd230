@@ -124,6 +124,12 @@ main section {
 main section h2 {
   margin-top: 0;
 }
+/*Discovery Section--------------*/
+section.gallery figure {
+  margin: 2rem 2vw;
+}
+
+
 
 /*Footer---------------------*/
 footer section {
