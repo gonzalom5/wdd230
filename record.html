@@ -39,16 +39,8 @@
         </ul>
       </nav>
     <main>
-        <h2>Web Form</h2>
-        <form action="record.html" method="get">
-            <label>Username:<input type="text" id="username" name="username" required placeholder="BYUI username" title="Plese enter your BYUI student username"></label>
-            <label>Password:<input type="password" id="pwd" name="pwd" required pattern="[a-zA-Z0-9]{8,}" placeholder="At least 8 Characters" title="Password must be at least 8 characters long"></label>
-            <label>Repeat Password:<input type="password" id="pwd2" name="pwd2" required pattern="[a-zA-Z0-9]{8,}" placeholder="At least 8 Characters"></label>
-            <div id="feedback"></div>
-            <label>BYUI Email:<input type="email" id="email1" name="email1" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="example@byui.edu" title="Please enter your byui email address"></label>
-            <label>Page Rating:<input type="range" id="rating" name="rating" min="1" max="10" required></label>
-            <input type="submit" value="Send Review!">
-        </form>
+        <h2>Submission Confirmation</h2>
+        <p>Your submission has been recorded, thank you! </p>
     </main>
     <footer>
         <p>&copy; <span id="year">year</span> Gonzalo Martinez, Chile</p>
@@ -58,6 +50,7 @@
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/numberOfVisits.js"></script>
-    <script src="scripts/matchingKey.js"></script>        
+    <script src="scripts/matchingKey.js"></script>
+    <script src="scripts/record.js"></script>        
 </body>
 </html>
