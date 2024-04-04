@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gonzalo Martinez - WDD230 - Web Frontend Development</title>
+    <meta name="description" content="Gonzalo Martinez - WDD 230 - Index Form">
+    <meta name="author" content="Gonzalo Martinez">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/form.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap">
+
+    <link rel="icon" href="favicon.ico">
+  
+    <meta property="og:title" content="Gonzalo Martinez - WDD 230 - Web Frontend Development">
+    <meta property="og:description" content="Form website for home portal">
+    <meta property="og:image" content="https://storage.googleapis.com/chile-travel-newsite-static-content/2021/08/Vitrina_Centro_santiago-1.jpg">
+    <meta property="og:url" content="https://gonzalom5.github.io/wdd230/">
 </head>
 <body>
     <header>
@@ -26,12 +41,13 @@
     <main>
         <h2>Web Form</h2>
         <form action="">
-            <label>Username:<input type="text" id="username" name="username" required pattern="[a-zA-Z0-9]{8,}"></label>
-            <label>Password:<input type="password" id="pwd" name="pwd" required pattern="[a-zA-Z0-9]{8,}"></label>
+            <label>Username:<input type="text" id="username" name="username" required placeholder="BYUI username" title="Plese enter your BYUI student username"></label>
+            <label>Password:<input type="password" id="pwd" name="pwd" required pattern="[a-zA-Z0-9]{8,}" placeholder="At least 8 Characters" title="Password must be at least 8 characters long"></label>
+            <label>Repeat Password:<input type="password" id="pwd2" name="pwd2" required pattern="[a-zA-Z0-9]{8,}" placeholder="At least 8 Characters"></label>
             <div id="feedback"></div>
-            <label>BYUI Email:<input type="email" id="email1" name="email1" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter your byui email address"></label>
+            <label>BYUI Email:<input type="email" id="email1" name="email1" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" placeholder="example@byui.edu" title="Please enter your byui email address"></label>
             <label>Page Rating:<input type="range" id="rating" name="rating" min="1" max="10" required></label>
-            <input type="submit" value="Send">
+            <input type="submit" value="Send Review!">
         </form>
     </main>
     <footer>
@@ -41,6 +57,7 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/darkMode.js"></script>
     <script src="scripts/hamburger.js"></script>
-    <script src="scripts/numberOfVisits.js"></script>    
+    <script src="scripts/numberOfVisits.js"></script>
+    <script src="scripts/matchingKey.js"></script>        
 </body>
 </html>
