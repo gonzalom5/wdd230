@@ -1,10 +1,15 @@
 @media only screen and (min-width: 38rem) {
+    main {
+      max-width: 1300px;
+      margin: 0 auto;
+    }  
+  
     header {
       grid-template-columns: 50px auto auto;
     }
   
     nav {
-      justify-self:center;
+      justify-self: center;
     }
   
     #Hamburger {
@@ -31,8 +36,8 @@
     div.hero a {
       top: 10%;
       left: 50%;
-      font-size: 25px;
-      padding: 1rem 5rem;
+      font-size: 15px;
+      padding: 1rem 4rem;
     }
 
     div.hero a:hover {
@@ -58,5 +63,26 @@
       display: flex;
       justify-content: space-around;
     }
+
+    /*Discover--------------*/
+    div.discover {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+    section.gallery figure {
+      max-width: 600px;
+    }
+
+    section.gallery img:hover {
+      box-shadow: 0 0 10px #333;
+      border-radius: 12px;
+    }
+
+    /*Join------------------*/
+    div.join {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+  
   
 }

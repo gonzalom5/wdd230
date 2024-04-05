@@ -10,7 +10,7 @@ body {
 
 header {
   padding: .6rem;
-  border-bottom: 1px solid #E09132;
+  border-bottom: 1px solid #d56b36;
   display: grid;
   gap: 1.5rem;
   grid-template-columns: 50px auto 48px;
@@ -18,14 +18,9 @@ header {
 
 header h1 {
   margin: 0;
-  color:#fbb040;
+  color:#d56b36;
   font-size: 1.4rem;
   padding-top: .5rem;
-}
-
-.outline-text{
-  outline-color: black;
-  outline-width: 5px;
 }
 
 header img {
@@ -78,6 +73,24 @@ nav ul li:hover a {
   background-color: #015f72;
   color: white;
 }
+
+/*Titles--------------------*/
+main h1 {
+  color:#015f72;
+  margin-left: 2vw;
+}
+main h2 {
+  color:#015f72;
+  margin-left: 2vw;
+}
+main h3 {
+  color: #015f72;
+  margin-left: 2vw;
+}
+main p {
+  color:#333;
+  margin-left: 2vw;
+}
   
 /*Hero image----------------*/
 div.hero {
@@ -114,24 +127,118 @@ div.cards{
   padding: 1rem 2vw;
 }
 
-main section {
-  background-color: #eee;
-  border: 1px dashed #015f72;
+div.cards section {
+  background-color: #fcfcfc;
+  border: solid 1px #256a77;
   width: 100%;
   padding: 1rem 2vw;
 }
 
-main section h2 {
+div.cards section h2{
   margin-top: 0;
 }
-/*Discovery Section--------------*/
+
+/*Discover----------------------*/
 section.gallery figure {
   margin: 2rem 2vw;
 }
 
+section.gallery figcaption {
+  text-align: center;
+  color: #666;
+  font-weight: 600;;
+}
+
+section.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/*Form---------------------------*/
+ul {
+  list-style-position: inside;
+  padding-left: 70px;
+}
+
+form {
+  margin: 1rem 2vw;
+}
+form label, 
+form textarea {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+textarea{
+  box-shadow: 3px 3px 1px 1px #f5a434;
+  border-radius: 4px;
+  width: 300px;
+}
+
+form fieldset {
+  margin-bottom: 2rem; 
+  width: 50%;
+  box-shadow: 3px 3px 1px 1px #f5a434;
+  border-radius: 4px;
+}
+
+form fieldset label {
+  margin: 1rem 0;
+}
+
+form input[type='text'],
+form input[type='email'],
+form input[type='tel'] {
+  display: block;
+  width: 300px;
+  border-radius: 4px;
+  border: 1.5px solid #015f72;
+}
+
+form fieldset legend {
+  width: auto;
+  color: #015f72;
+}
+
+form input:valid {
+  border-left: solid rgb(57, 163, 57) 4px;
+}
+
+form input:invalid {
+  border-left: solid red 4px;
+}
+
+form input[type='submit'] {
+  width: 300px;
+  border: solid #333 1px;
+  padding: 1rem 0;
+  border-radius: 6px;
+  font-weight: 600;
+  background-color: #fbb040;
+}
+
+.box {
+  width: auto;
+  height: 70%;
+  border: 2px solid #fffcfc;
+  border-radius: 4px;
+  box-shadow: 3px 3px 1px 1px #fbb040;
+  padding: 20px 15px;
+  background-image: linear-gradient(150deg, #EAFAF1 , #fbf8e1 30%,#ffffff );
+}
 
 
-/*Footer---------------------*/
+/*Thankyou----------------------*/
+
+main p{
+  text-align: center;
+  font-size: 30px;
+  padding: 10rem;
+  font-weight: 600;
+}
+
+/*Footer-----------------------*/
 footer section {
   padding: 1rem 2vw;
 }
@@ -162,3 +269,7 @@ footer {
   color:#0b4972;
   font-weight: 400;
 }
+
+
+
+
