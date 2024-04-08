@@ -13,8 +13,7 @@
             "Gender": "F",
 			"birth": "1983-10-23"
 			
-		}
-	],
+		}],
 	"Children": [{
 			"Name": "Ethan",
             "Gender": "M",
@@ -30,6 +29,5 @@
 			"Name": "Sophia",
             "Gender": "F",
 			"Birth": "2012-01-15"
-		}
-	]
+		}]
 }
