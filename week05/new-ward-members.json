@@ -5,8 +5,8 @@
 	"Visited by bishopric": true,
 	"Parents": [{
 			"Name": "Zachary",
-            "Gender": "M",
-			"Birth": "1980-12-5"
+			"Birth": "1980-12-5",
+            "Gender": "M"
 		},
 		{
 			"Name": "Sydney",
