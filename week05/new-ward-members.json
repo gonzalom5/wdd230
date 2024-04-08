@@ -5,18 +5,18 @@
 	"visited by bishopric": true,
 	"parents": [{
 			"name": "Zachary",
-            "gender": "M",
+             "gender": "M",
 			"birth": "1980-12-5"
 			
 		},
 		{
 			"name": "Sydney",
-            "gender": "F",
+                               "gender": "F",
 			"birth": "1983-10-23"
 			
 		}
 	],
-	"kids": [{
+	"children": [{
 			"name": "Ethan",
             "gender": "M",
 			"birth": "2005-09-05"
