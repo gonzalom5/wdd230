@@ -10,7 +10,7 @@
                 flex: 1 1 100%;
             }       
     header, main, nav, footer {
-        max-width: 900px;
+        max-width: 1000px;
         margin: 0 auto;
     }
     .grid {
