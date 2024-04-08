@@ -1,33 +1,36 @@
 {
-	"Family name": "Johnson",
-	"Moved into ward": "2022-02-20",
-	"Family size": 5,
-	"Visited by bishopric": true,
-	"Parents": [{
-			"Name": "Zachary",
-			"Birth": "1980-12-5",
-            "Gender": "M"
+	"family name": "Johnson",
+	"moved into ward": "2022-02-20",
+	"family size": 5,
+	"visited by bishopric": true,
+	"parents": [{
+			"name": "Zachary",
+            "gender": "M",
+			"birth": "1980-12-5"
+			
 		},
 		{
-			"Name": "Sydney",
-            "Gender": "F",
+			"name": "Sydney",
+            "gender": "F",
 			"birth": "1983-10-23"
 			
-		}],
-	"Children": [{
-			"Name": "Ethan",
-            "Gender": "M",
-			"Birth": "2005-09-05"
+		}
+	],
+	"kids": [{
+			"name": "Ethan",
+            "gender": "M",
+			"birth": "2005-09-05"
 			
 		},
 		{
-			"Name": "Elena",
-            "Gender": "F",
-			"Birth": "2007-07-30"
+			"name": "Elena",
+            "gender": "F",
+			"birth": "2007-07-30"
 		},
 		{
-			"Name": "Sophia",
-            "Gender": "F",
-			"Birth": "2012-01-15"
-		}]
+			"name": "Sophia",
+            "gender": "F",
+			"birth": "2012-01-15"
+		}
+	]
 }
