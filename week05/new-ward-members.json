@@ -1,0 +1,33 @@
+{
+	"family name": "Johnson",
+	"moved into ward": "2022-02-20",
+	"family size": 5,
+	"visited by bishopric": true,
+	"parents": [{
+			"name": "Zachary",
+			"birth": "1980-12-5",
+			"Gender": "M"
+		},
+		{
+			"name": "Sydney",
+			"birth": "1983-10-23",
+			"Gender": "F"
+		}
+	],
+	"kids": [{
+			"name": "Ethan",
+			"birth": "2005-09-05",
+			"Gender": "M"
+		},
+		{
+			"name": "Elena",
+			"birth": "2007-07-30",
+			"Gender": "F"
+		},
+		{
+			"name": "Sophia",
+			"birth": "2012-01-15",
+			"Gender": "F"
+		}
+	]
+}
