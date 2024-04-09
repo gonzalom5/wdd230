@@ -1,0 +1,12 @@
+*{
+    text-align: center;
+    padding: 10px;
+}
+
+main p {
+    font-size: 1.3rem;
+}
+
+figure img {
+    width: auto;
+}
