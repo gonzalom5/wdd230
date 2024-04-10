@@ -74,9 +74,6 @@ nav li a {
   text-decoration: none;
 }
 
-ul li {
-  padding: .4rem;
-}
 nav a:hover {
 	background-color: rgba(0,0,0,0.3)
 }
@@ -155,6 +152,20 @@ main p {
 main ul {
   list-style-position: inside;
   margin: 1rem;
+}
+
+main ul li {
+	list-style-type: none;
+	line-height: 150%;
+}
+
+main ul li::before {
+  color: #154e13;
+  content: "▪";
+}
+
+#displayIndexLinks {
+  padding-left: 1rem;
 }
 
 /*Hero Image----------------------*/
