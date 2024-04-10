@@ -1,5 +1,5 @@
 const baseURL = "https://gonzalom5.github.io/wdd230/chamber";
-const linksURL = "https://gonzalom5.github.io/wdd230/chamber/data/links.json";
+const linksURL = "https://gonzalom5.github.io/wdd230/chamber/data/members.json";
 const cards = document.querySelector('#members');
 
 async function getMembers() {
