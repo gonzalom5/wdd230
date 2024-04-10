@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 Web Fronted Development - Gonzalo Martinez - Chamber of Commerce project">
+    <meta name="author" content="Gonzalo Martinez">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Santiago Chamber of Commerce">
+    <meta property="og:description" content="WDD 230 - Chamber of Commerce Project - Gonzalo Martinez">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://c4.wallpaperflare.com/wallpaper/604/587/817/cityscape-santiago-de-chile-skycrapers-city-wallpaper-thumb.jpg">
+    <meta property="og:url" content="https://gonzalom5.github.io/wdd230/">
+
+    <title>Santiago Chamber of Commerce</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Site Logo">
+        <div>
+            <h1>Santiago <br>Chamber of Commerce</h1>
+        </div>
+        <nav>
+            <button id="Hamburger">☰</button>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>  
+    <main>
+        <h1>Directory</h1>
+            <div id="theButtons">
+            <button id="btnGrid" class="active">Grid</button><button id="btnList">List</button>
+            </div>
+            <div id="members" class="grid"></div>
+    </main>
+    <footer>
+        <section>
+            <img src="images/logo.png" alt="site logo">
+        <div>
+            <p>Santiago Chamber of Commerce</p>
+            <p>Avenida Apoquindo 1234, Las Condes</p>
+            <p>Santiago, Chile</p>
+        </div>
+        </section>
+        <section>
+            <p>info@santiagochamber.org</p>
+            <p><a href="tel:56212345678">+56(2)1234-5678</a></p>
+            <p>Location Map <a href="#">Click Here</a></p>
+        </section>
+        <section>
+            <p>&copy; <span id="year">year</span> Santiago Chamber</p>
+            <p>Gonzalo Martinez</p>
+            <p>WDD 230 Class Project</p>
+            <p id="lastModified">placeholder</p>
+        </section>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+    <script src="scripts/members.js"></script>
+</body>
+</html>
