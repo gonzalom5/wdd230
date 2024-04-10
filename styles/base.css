@@ -166,6 +166,7 @@ main ul li::before {
 
 #displayIndexLinks {
   padding-left: 1rem;
+  padding-top: 1rem;
 }
 
 /*Hero Image----------------------*/
