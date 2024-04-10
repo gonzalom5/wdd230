@@ -1,9 +1,8 @@
 const baseURL = "https://gonzalom5.github.io/wdd230/chamber";
 const linksURL = "https://gonzalom5.github.io/wdd230/chamber/data/members.json";
-const cards = document.querySelector('#members');
 
 async function getMembers() {
-  const response = await fetch(url);
+  const response = await fetch(linksURL);
   const data = await response.json();
   console.log(data.members);
   displayMembers(data.members)
@@ -11,44 +10,47 @@ async function getMembers() {
 
 getMembers();
 
+const cards = document.querySelector('#members');
+
 const displayMembers = (allMembers) => {
   allMembers.forEach((member) => {
-    const myName = document.createElement('h3')
-    myName.textContent= member.name;
-    const myAddress = document.createElement('p')
-    myAddress.textContent = member.address
-    const myPhone = document.createElement('p')
-    myPhone.textContent = member.phone
-    const myURL = document.createElement('p')
-    myURL.innerHTML = `<a href="${member.url}" target="_blank">Website</a>`
-    const myLogo = document.createElement('img')
-    myLogo.src=`./images/${member.logopath}`
-    const myLevel = document.createElement('img')
+
+    const memberName = document.createElement('h3')
+    memberName.textContent= member.name;
+    const memberAddress = document.createElement('p')
+    memberAddress.textContent = member.address;
+    const memberPhone = document.createElement('p')
+    memberPhone.textContent = member.phone;
+    const memberURL = document.createElement('p')
+    memberURL.innerHTML = `<a href="${member.url}" target="_blank">Website</a>`
+    const memberLogo = document.createElement('img')
+    memberLogo.src=`./images/${member.logopath}`
+    const memberLevel = document.createElement('img')
     switch(member.level) {
       case 1:
-        myLevel.src = "./images/level-bronze.png"
-        myLevel.alt="Bronze"
+        memberLevel.src = "./images/bronze-level.png"
+        memberLevel.alt="Bronze"
         break;
       case 2:
-        myLevel.src = "./images/level-silver.png"
-        myLevel.alt="Silver"
+        memberLevel.src = "./images/silver-level.png"
+        memberLevel.alt="Silver"
         break;
         case 3:
-          myLevel.src = "./images/level-gold.png"
-          myLevel.alt="Gold"
+          memberLevel.src = "./images/golden-level.png"
+          memberLevel.alt="Gold"
         break;
       default:
-        myLevel.src = "./images/level-nfp.png"
-        myLevel.alt="Npt for Profit"
+        memberLevel.src = "./images/level-nfp.png"
+        memberLevel.alt="Npt for Profit"
     }
-    const mySection = document.createElement('section')
-    mySection.appendChild(myLogo)
-    mySection.appendChild(myName)
-    mySection.appendChild(myAddress)
-    mySection.appendChild(myPhone)
-    mySection.appendChild(myURL)
-    mySection.appendChild(myLevel)
-    cards.appendChild(mySection)
+    const memberSection = document.createElement('section')
+    memberSection.appendChild(memberLogo)
+    memberSection.appendChild(memberName)
+    memberSection.appendChild(memberAddress)
+    memberSection.appendChild(memberPhone)
+    memberSection.appendChild(memberURL)
+    memberSection.appendChild(memberLevel)
+    cards.appendChild(memberSection)
   });
 }
 
@@ -58,9 +60,9 @@ setGrid.addEventListener('click',() => {
   setGrid.className="active"
   setList.className=""
   cards.className='grid'
-})
+});
 setList.addEventListener('click',() => {
   setList.className="active"
   setGrid.className=""
   cards.className='list'
-})
+});

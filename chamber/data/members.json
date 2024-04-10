@@ -1,18 +1,18 @@
 {
     "members": [
     {
-        "name": "Fall Street Brewing",
-        "address":"106 Fall St, Seneca Falls, NY 13148",
-        "phone": "315-555-8332",
-        "url" :"http://fallstreetbrewing.square.site",
+        "name": "Cencosud",
+        "address":"Av. Kennedy 9001, Piso 4, Las Condes, Santiago - Chile ",
+        "phone": "+56 600 450 5000",
+        "url" :"https://www.cencosud.com/",
         "logopath": "logo1.png",
         "level": 3
     },
     {
-        "name": "Barrister's Bed & Breakfast",
-        "address":"123 Maple Street, Seneca Falls, NY 13148",
-        "phone": "315-555-1234",
-        "url" :"https://sleepbarristers.com/",
+        "name": "Quiñenco",
+        "address":"Enrique Foster Sur 20, Piso 15. Las Condes, Santiago - Chile",
+        "phone": "+56 22750 7100",
+        "url" :"https://www.quinenco.cl/",
         "logopath": "logo2.png",
         "level": 1
     },
