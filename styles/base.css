@@ -74,6 +74,9 @@ nav li a {
   text-decoration: none;
 }
 
+ul li {
+  padding: .4rem;
+}
 nav a:hover {
 	background-color: rgba(0,0,0,0.3)
 }
@@ -175,6 +178,16 @@ main ul {
   color: #eee;
   background-color: rgba(15, 49, 87, 0.6);
   border-radius: 6px;
+}
+
+#weather-icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section p {
+  text-align: center;
 }
 
 /*footer-------------------------*/
