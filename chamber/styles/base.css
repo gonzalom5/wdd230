@@ -120,6 +120,37 @@ div.hero a {
 div.hero a:hover {
   font-size: 120%;
 }
+
+/*Weather----------------------*/
+.current {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #d56b36;
+}
+
+#forecast {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 10px;
+}
+
+#forecast div {
+  border: 1px solid #d56b36;
+  padding: 1rem;
+}
+
+#forecast p.temp {
+  font-size: 2rem;
+}
+
+#forecast p.desc {
+  color: #d56b36;
+}
+
+.weather h2 {
+  text-align: center;
+}
   
 /* Cards---------------------*/
 div.cards{
