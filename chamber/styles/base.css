@@ -181,7 +181,7 @@ div#members {
 div.grid {
   display: flex;
   flex-wrap: wrap;
-  gap:8px;
+  gap: 10px;
   justify-content: center;
 }
 
@@ -194,15 +194,15 @@ div.grid section {
 }
 
 div.grid img:first-child {
-  width: 30%;
+  width: 50%;
 }
 
 div.grid h3 {
-  margin: .2rem 0;
+  margin: .1rem;
 }
 
 div.grid p {
-  margin: .2rem 0;
+  margin: .1rem;
 }
 
 div.list section {
