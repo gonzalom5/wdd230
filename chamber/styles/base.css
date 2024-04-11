@@ -76,21 +76,22 @@ nav ul li:hover a {
 
 /*Titles--------------------*/
 main h1 {
-  color:#015f72;
-  margin-left: 2vw;
+  color:#d56b36;
+  margin-left: .5rem 2vw;
 }
 main h2 {
-  color:#015f72;
+  color:#424530;
   margin-left: .5rem 2vw;
 }
 main h3 {
-  color: #015f72;
+  color: #424530;
   margin-left: .5rem 2vw;
 }
 main p {
-  color:#333;
+  color:#424530;
   margin-left: .5rem 2vw;
-  
+  font-weight: 500;
+  font-size: 1.1rem;
 }
   
 /*Hero image----------------*/
@@ -186,6 +187,14 @@ section.gallery img {
   height: auto;
   border-radius: 4px;
 }
+
+.calendar-iframe {
+  width: 300px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  float: left; /* Align the iframe to the left */
+  margin-right: 10px; /* Add some spacing between the iframe and other content */
+}
+
 
 /*Directory Buttons----------------------*/
 div#buttons {
