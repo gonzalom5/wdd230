@@ -97,7 +97,6 @@ main p {
   color:#424530;
   margin-left: .5rem;
   font-weight: 500;
-  font-size: 1.1rem;
 }
   
 /*Hero image----------------*/
@@ -348,8 +347,8 @@ form input[type='submit'] {
 
 .thanks{
   text-align: center;
-  margin: 10rem;
-  font-size: 25px;
+  margin-top: 10rem;
+  font-size: 50px;
   font-weight: 600;
 }
 
