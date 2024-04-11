@@ -81,15 +81,16 @@ main h1 {
 }
 main h2 {
   color:#015f72;
-  margin-left: 2vw;
+  margin-left: .5rem 2vw;
 }
 main h3 {
   color: #015f72;
-  margin-left: 2vw;
+  margin-left: .5rem 2vw;
 }
 main p {
   color:#333;
-  margin-left: 2vw;
+  margin-left: .5rem 2vw;
+  
 }
   
 /*Hero image----------------*/
@@ -175,14 +176,15 @@ div#buttons button {
 div#members {
   margin: 0 2vw;
 }
+
 /*Grid----------------------------*/
 div.grid {
   display: flex;
   flex-wrap: wrap;
   gap:8px;
   justify-content: center;
-  
 }
+
 div.grid section {
   text-align: center;
   margin: 1rem 0;
@@ -192,15 +194,20 @@ div.grid section {
 }
 
 div.grid img:first-child {
-  width: 100%;
+  width: 30%;
 }
 
-div.grid h3 {margin: .2rem 0;}
-div.grid p {margin: .2rem 0;}
+div.grid h3 {
+  margin: .2rem 0;
+}
+
+div.grid p {
+  margin: .2rem 0;
+}
 
 div.list section {
   display: grid;
-  grid-template-columns: auto auto auto auto 55px;
+  grid-template-columns: 1rem auto 1rem 1rem 16px;
   align-items: center;
   margin: .5rem 0;
   border: solid 1px #f5a434;
@@ -290,9 +297,6 @@ form input[type='submit'] {
 
 main p{
   text-align: center;
-  font-size: 30px;
-  padding: 10rem;
-  font-weight: 600;
 }
 
 /*Footer-----------------------*/

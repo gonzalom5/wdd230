@@ -22,9 +22,9 @@ const displayMembers = (allMembers) => {
     const memberPhone = document.createElement('p')
     memberPhone.textContent = member.phone;
     const memberURL = document.createElement('p')
-    memberURL.innerHTML = `<a href="${member.url}" target="_blank">Website</a>`
+    memberURL.innerHTML = `<a href="${member.url}" target="_blank">Website</a>`;
     const memberLogo = document.createElement('img')
-    memberLogo.src=`./images/${member.logopath}`
+    memberLogo.src=`./images/${member.logopath}`;
     const memberLevel = document.createElement('img')
     switch(member.level) {
       case 1:
@@ -40,8 +40,8 @@ const displayMembers = (allMembers) => {
           memberLevel.alt="Gold"
         break;
       default:
-        memberLevel.src = "./images/level-nfp.png"
-        memberLevel.alt="Npt for Profit"
+        memberLevel.src = "./images/NP.png"
+        memberLevel.alt="Not for Profit"
     }
     const memberSection = document.createElement('section')
     memberSection.appendChild(memberLogo)
