@@ -148,7 +148,7 @@ div.hero a:hover {
   color: #d56b36;
 }
 
-.weather h2 {
+.weather h2, h3 {
   text-align: center;
 }
   

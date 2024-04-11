@@ -24,7 +24,7 @@ function forcastWeather2(weatherResults) {
 function showForecast(chamberForecast) {  
   const forecast = document.querySelector('#forecast')
   chamberForecast.forEach((day) => {
-    const chamberTemperature=document.createElement('p')
+    const cityTemp=document.createElement('p')
     cityTemp.className="temp"
     cityTemp.textContent = Math.floor(day.main.temp) + "°"
 
