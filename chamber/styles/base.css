@@ -273,7 +273,11 @@ div.list img:first-child {
 /*Form---------------------------*/
 ul {
   list-style-position: inside;
-  padding-left: 70px;
+  padding-left: 30px;
+}
+
+ul li {
+font-size: 20px;
 }
 
 form label, 
@@ -338,10 +342,13 @@ form input[type='submit'] {
   border: 2px solid #fffcfc;
   border-radius: 4px;
   box-shadow: 3px 3px 1px 1px #fbb040;
-  padding: 15px 15px;
+  padding: 1px 15px;
   background-image: linear-gradient(150deg, #EAFAF1 , #fbf8e1 30%,#ffffff );
 }
 
+.box h2{
+  text-align: center;
+}
 
 /*Thankyou----------------------*/
 
