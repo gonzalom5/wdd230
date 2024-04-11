@@ -188,14 +188,6 @@ section.gallery img {
   border-radius: 4px;
 }
 
-.calendar-iframe {
-  width: 300px; /* Adjust the width as needed */
-  height: 400px; /* Adjust the height as needed */
-  float: left; /* Align the iframe to the left */
-  margin-right: 10px; /* Add some spacing between the iframe and other content */
-}
-
-
 /*Directory Buttons----------------------*/
 div#buttons {
   width: 100%; 
@@ -278,9 +270,6 @@ ul {
   padding-left: 70px;
 }
 
-form {
-  margin: 1rem 2vw;
-}
 form label, 
 form textarea {
   display: block;
@@ -301,7 +290,7 @@ form fieldset {
 }
 
 form fieldset label {
-  margin: 1rem 0;
+  margin: .5rem 0;
 }
 
 form input[type='text'],
@@ -341,7 +330,7 @@ form input[type='submit'] {
   border: 2px solid #fffcfc;
   border-radius: 4px;
   box-shadow: 3px 3px 1px 1px #fbb040;
-  padding: 20px 15px;
+  padding: 15px 15px;
   background-image: linear-gradient(150deg, #EAFAF1 , #fbf8e1 30%,#ffffff );
 }
 
