@@ -76,7 +76,7 @@ nav ul li:hover a {
 
 /*Titles--------------------*/
 main h1 {
-  color:#d56b36;
+  color:#256a77;
   margin-left: .5rem;
 }
 main h2 {
@@ -178,8 +178,9 @@ section.gallery figure {
 
 section.gallery figcaption {
   text-align: center;
-  color: #666;
-  font-weight: 600;;
+  color: #256a77;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 section.gallery img {
