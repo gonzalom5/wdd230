@@ -77,19 +77,19 @@ nav ul li:hover a {
 /*Titles--------------------*/
 main h1 {
   color:#d56b36;
-  margin-left: .5rem 2vw;
+  margin-left: .5rem;
 }
 main h2 {
   color:#424530;
-  margin-left: .5rem 2vw;
+  margin-left: .5rem;
 }
 main h3 {
   color: #424530;
-  margin-left: .5rem 2vw;
+  margin-left: .5rem;
 }
 main p {
   color:#424530;
-  margin-left: .5rem 2vw;
+  margin-left: .5rem;
   font-weight: 500;
   font-size: 1.1rem;
 }
@@ -298,6 +298,7 @@ form input[type='email'],
 form input[type='tel'] {
   display: block;
   width: 300px;
+  height: 35px;
   border-radius: 4px;
   border: 1.5px solid #015f72;
 }
