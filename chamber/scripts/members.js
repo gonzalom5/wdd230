@@ -29,19 +29,19 @@ const displayMembers = (allMembers) => {
     switch(member.level) {
       case 1:
         memberLevel.src = "./images/bronze-level.png"
-        memberLevel.alt="Bronze"
+        memberLevel.alt = "Bronze"
         break;
       case 2:
         memberLevel.src = "./images/silver-level.png"
-        memberLevel.alt="Silver"
+        memberLevel.alt = "Silver"
         break;
         case 3:
           memberLevel.src = "./images/golden-level.png"
-          memberLevel.alt="Gold"
+          memberLevel.alt = "Gold"
         break;
       default:
         memberLevel.src = "./images/NP.png"
-        memberLevel.alt="Not for Profit"
+        memberLevel.alt = "Not for Profit"
     }
     const memberSection = document.createElement('section')
     memberSection.appendChild(memberLogo)
