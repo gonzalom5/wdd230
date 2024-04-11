@@ -4,14 +4,14 @@ fetch(coordinatesWeather)
   .then((response) => response.json())
   .then((allData) => {
     showWeather(allData)
-})
+});
 
 function showWeather(allData) {
-    const tempToday = document.querySelector('#temp')
-    tempToday.textContent = Math.floor(allData.main.temp)+'°'
-    const conditionsToday = document.querySelector('#desc')
-    conditionsToday.textContent = allData.weather[0].description
-    const cityName = document.querySelector('#city')
-    cityName.textContent = allData.name
-    console.log(allData)
+    const tempToday = document.querySelector('#temp');
+    tempToday.textContent = Math.floor(allData.main.temp)+'°';
+    const conditionsToday = document.querySelector('#desc');
+    conditionsToday.textContent = allData.weather[0].description;
+    const cityName = document.querySelector('#city');
+    cityName.textContent = allData.name;
+    console.log(allData);
 }

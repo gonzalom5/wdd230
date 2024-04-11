@@ -1,4 +1,4 @@
-const chamberWeather = "https://api.openweathermap.org/data/2.5/weather?q=Santiago,cl&appid=bcc966acb1fdd4d27d55a51f8f5f65d6&units=imperial";
+const chamberWeather = "https://api.openweathermap.org/data/2.5/weather?lat=-33.4569&lon=-70.64827&appid=bcc966acb1fdd4d27d55a51f8f5f65d6&units=imperial";
 
 fetch(chamberWeather)
   .then((response) => response.json())
@@ -25,21 +25,21 @@ function showForecast(chamberForecast) {
   const forecast = document.querySelector('#forecast')
   chamberForecast.forEach((day) => {
     const chamberTemperature=document.createElement('p')
-    chamberTemperature.className="temp"
-    chamberTemperature.textContent = Math.floor(day.main.temp) + "°"
+    cityTemp.className="temp"
+    cityTemp.textContent = Math.floor(day.main.temp) + "°"
 
-    const chamberDescription=document.createElement('p')
-    chamberDescription.className='desc'
-    chamberDescription.textContent = day.weather[0].description
+    const chamberDesc=document.createElement('p')
+    chamberDesc.className='desc'
+    chamberDesc.textContent = day.weather[0].description
     
     const chamberIcon = document.createElement('img')
     chamberIcon.src = `//openweathermap.org/img/wn/${day.weather[0].icon}@2x.png`
     chamberIcon.alt = day.weather[0].description
 
     const theWeather = document.createElement('div')
-    theWeather.appendChild(chamberTemperature)
-    theWeather.appendChild(chamberDescription)
+    theWeather.appendChild(cityTemp)
+    theWeather.appendChild(chamberDesc)
     theWeather.appendChild(chamberIcon)
     forecast.appendChild(theWeather)
-  })
+  });
 }
