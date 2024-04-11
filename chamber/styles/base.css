@@ -155,6 +155,63 @@ section.gallery img {
   border-radius: 4px;
 }
 
+/*Directory Buttons----------------------*/
+div#buttons {
+  width: 100%; 
+  text-align: center;
+}
+
+div#buttons button.active {
+  background-color: #d56b36;
+}
+
+div#buttons button {
+  margin: 0 1rem; 
+  padding: .7rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #d56b36;
+}
+
+div#members {
+  margin: 0 2vw;
+}
+/*Grid----------------------------*/
+div.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap:8px;
+  justify-content: center;
+  
+}
+div.grid section {
+  text-align: center;
+  margin: 1rem 0;
+  border: solid 1px #d56b36;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+div.grid img:first-child {
+  width: 100%;
+}
+
+div.grid h3 {margin: .2rem 0;}
+div.grid p {margin: .2rem 0;}
+
+div.list section {
+  display: grid;
+  grid-template-columns: auto auto auto auto 55px;
+  align-items: center;
+  margin: .5rem 0;
+  border: solid 1px #f5a434;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+div.list img:first-child {
+  display: none;
+}
+
 /*Form---------------------------*/
 ul {
   list-style-position: inside;
@@ -171,7 +228,7 @@ form textarea {
 }
 
 textarea{
-  box-shadow: 3px 3px 1px 1px #f5a434;
+  box-shadow: 3px 3px 1px 1px #d56b36;
   border-radius: 4px;
   width: 300px;
 }
@@ -179,7 +236,7 @@ textarea{
 form fieldset {
   margin-bottom: 2rem; 
   width: 50%;
-  box-shadow: 3px 3px 1px 1px #f5a434;
+  box-shadow: 3px 3px 1px 1px #d56b36;
   border-radius: 4px;
 }
 
