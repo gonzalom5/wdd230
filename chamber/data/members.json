@@ -14,7 +14,7 @@
         "phone": "+56 22750 7100",
         "url" :"https://www.quinenco.cl/",
         "logopath": "quinenco.png",
-        "level": 1
+        "level": 2
     },
     {
         "name": "Falabella",
@@ -22,23 +22,23 @@
         "phone": "+56 600 329 2002",
         "url" :"https://www.falabella.com/falabella-cl/page/grupo-falabella",
         "logopath": "falabella.png",
+        "level": 1
+    },
+    {
+        "name": "Latam",
+        "address":"Av. Presidente Riesco 5711. Las Condes, Santiago - Chile",
+        "phone": "+56 600 526 2000",
+        "url" :"https://www.latamairlines.com/cl/es",
+        "logopath": "latam.png",
         "level": 2
     },
     {
-        "name": "Stephanie Court",
-        "address":"19 Green St, Seneca Falls, NY 13148",
-        "phone": "315-555-5565",
-        "url" :"https://www.stephaniecourtapartments.com/",
-        "logopath": "logo4.png",
+        "name": "Entel",
+        "address":"Av. Costanera Sur Rio Mapocho, 2760. Las Condes, Santiago - Chile",
+        "phone": "+56 3600 1230",
+        "url" :"https://www.entel.cl/",
+        "logopath": "entel.png",
         "level": 3
-    },
-    {
-        "name": "Dewey's 3rd Ward Tavern",
-        "address":"39 Bridge St, Seneca Falls, NY 13148",
-        "phone": "+315-555-4991",
-        "url" :"https://www.deweysthirdward.com/",
-        "logopath": "logo5.png",
-        "level": 2
     },
     {
         "name": "Mick's Graphics",
@@ -55,14 +55,6 @@
         "url" :"https://www.wonderfullifemuseum.com/",
         "logopath": "logo7.png",
         "level": 0
-    },
-    {
-        "name": "Wilson Press & Mail House",
-        "address":"1025 Edge Road, Seneca Falls, NY 13148",
-        "phone": "315-555-9693",
-        "url" :"https://wilsonpress.com/",
-        "logopath": "logo8.png",
-        "level": 3
     }
 ]
 }
