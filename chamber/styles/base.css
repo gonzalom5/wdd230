@@ -164,7 +164,7 @@ div.hero a:hover {
 div.cards{
   display: grid; 
   grid-template-columns: 1fr;
-  padding: 1rem 2vw;
+  padding: 1rem;
 }
 
 div.cards section {
