@@ -14,7 +14,7 @@ async function getLinks() {
   function displayLinks(allLinks) {
     allLinks.forEach(item => {
 
-        const weekOne = document.createElement("W1");
+        const weekOne = document.createElement("h3");
         weekOne.textContent = `${item.week}`;
 
         const linksList = document.createElement("ul");
