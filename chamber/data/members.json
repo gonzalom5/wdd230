@@ -41,19 +41,19 @@
         "level": 3
     },
     {
-        "name": "Mick's Graphics",
-        "address":"232 Aspen Way, Seneca Falls, New York",
-        "phone": "315-555-7747",
-        "url" :"http://www.mpgraphicsny.com/",
-        "logopath": "logo6.png",
+        "name": "Codelco",
+        "address":"Huérfanos 1270. Santiago - Chile",
+        "phone": "+56 2 2690 3000",
+        "url" :"https://www.codelco.com/",
+        "logopath": "codelco.png",
         "level": 1
     },
     {
-        "name": "It's A Wonderful Life Museum",
-        "address":"76 Fall St, Seneca Falls, NY 13148",
-        "phone": "315-555-7913",
-        "url" :"https://www.wonderfullifemuseum.com/",
-        "logopath": "logo7.png",
+        "name": "Un Techo Para Chile",
+        "address":"Departamental 440. San Joaquín, Santiago - Chile",
+        "phone": "+56 2 2838 7300",
+        "url" :"https://cl.techo.org/",
+        "logopath": "techo.png",
         "level": 0
     }
 ]
