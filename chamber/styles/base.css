@@ -178,6 +178,44 @@ div.cards section h2{
   margin-top: 0;
 }
 
+/*Banner-----------------------------*/
+.banner {
+  position: relative;
+  background-color: #d56b36;
+  padding: 1px;
+  margin-bottom: 1px;
+}
+
+#closeBannerButton {
+  top: 5px;
+  right: 5px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0;
+}
+
+#closeButtonContainer {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: #eee;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#meetAndGreet p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 400;
+  color: #eee;
+}
+
 /*Discover----------------------*/
 section.gallery figure {
   margin: 2rem 2vw;

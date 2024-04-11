@@ -41,6 +41,12 @@
         </nav>
     </header>  
     <main>
+        <div id="meetAndGreet" class="banner">
+            <p>Don't miss our Chamber of Commerce meet and greet event on Wednesday at 7:00 p.m.!</p>
+            <div id="closeButtonContainer">
+                <button id="closeBannerButton">❌</button>
+            </div>
+        </div>
         <div class="hero">
             <img src="images/hero.webp" alt="hero">
             <a href="join.html">Join Now!</a>
@@ -53,7 +59,7 @@
         <section class="weather">
             <h2>Weather for <span id="city"></span></h2>
             <p class="current">Today: <span id="temp">x</span> with <span id="desc">x</span></p>
-            <h3>Three day Temp Forecast</h3>
+            <h3>Three Day Forecast</h3>
             <div id="forecast"></div>
           </section>
         <section class="spot">
@@ -94,8 +100,10 @@
             <p id="lastModified">placeholder</p>
         </section>
     </footer>
+    </div>
     <script src="scripts/chamber.js"></script>
     <script src="scripts/weatherForecast.js"></script>
     <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>
