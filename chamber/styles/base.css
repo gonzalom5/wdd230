@@ -216,12 +216,16 @@ div.grid img {
 
 div.list section {
   display: grid;
-  grid-template-columns: 1rem auto 1rem 1rem 16px;
+  grid-template-columns: auto 40rem 15rem 10rem 6rem;
   align-items: center;
   margin: .5rem 0;
   border: solid 1px #f5a434;
   border-radius: 10px;
   overflow: hidden;
+}
+
+div.list p {
+  font-weight: 400;
 }
 
 div.list img:first-child {
